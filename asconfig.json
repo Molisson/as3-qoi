@@ -1,0 +1,17 @@
+{
+    "config": "air",
+    "compilerOptions": {
+        "source-path": [
+            "src"
+        ],
+        "default-size": {
+            "width": 640,
+            "height": 480
+        },
+        "default-background-color": "#000000",
+        "default-frame-rate": 256,
+        "output": "bin/Main.swf"
+    },
+    "mainClass": "Main",
+    "application": "src/AIRConfig.xml"
+}

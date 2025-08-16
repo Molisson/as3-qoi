@@ -1,11 +1,11 @@
 package com.qoi {
 	public final class QOIColor {
-		public var red: int;
-		public var green: int;
-		public var blue: int;
-		public var alpha: int;
+		public var red: uint;
+		public var green: uint;
+		public var blue: uint;
+		public var alpha: uint;
 
-		public function QOIColor( red: int, green: int, blue: int, alpha: int ) {
+		public function QOIColor( red: uint, green: uint, blue: uint, alpha: uint ) {
 			this.red = red;
 			this.green = green;
 			this.blue = blue;
